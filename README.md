@@ -67,7 +67,11 @@ The resulting counts were visualized using a choropleth map with graduated symbo
 
 ## Map Summary
 
-This map highlights spatial differences in park accessibility across South Carolina counties. Counties with higher counts of parks within a 2-mile buffer show greater recreational access, while lower values indicate potential gaps in access to public green space.
+This map illustrates differences in public park accessibility across counties in South Carolina using a 2-mile buffer analysis. Park locations were analyzed by generating a 2-mile buffer around each park feature to represent approximate local access to recreational spaces. The number of park buffer features intersecting each county was then calculated to produce a county-level measure of potential park accessibility.
+
+The resulting choropleth map highlights spatial variation in park access across the state. Counties with higher values represent areas with greater concentrations of parks within a 2-mile range, indicating stronger potential access to recreational opportunities. These areas are primarily concentrated around more urbanized regions such as Charleston, Greenville, and surrounding counties. In contrast, lower values are more common in rural counties, suggesting more limited access to nearby public parks.
+
+Overall, the map provides a clear visual comparison of recreational access across South Carolina and helps identify geographic disparities in the availability of public green space.
 
 ---
 
