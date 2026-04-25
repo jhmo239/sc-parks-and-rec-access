@@ -55,7 +55,7 @@ A 2-mile buffer was then applied around each park to represent approximate drive
 
 County boundary data were obtained from the U.S. Census Bureau’s 2022 TIGER/Line shapefiles (https://www.census.gov/cgi-bin/geo/shapefiles/index.php).
 
-Both datasets were projected using NAD83 / South Carolina (ftUS) or EPSG:3857 to ensure spatial consistency.
+Both datasets were projected using EPSG:2273 (NAD83 / South Carolina ftUS) to ensure spatial consistency.
 
 To calculate the number of parks accessible within each county, the **Join Attributes by Location (Summary)** tool was used to spatially join park buffer features to the county boundary layer and summarize the total count of parks per county.
 
