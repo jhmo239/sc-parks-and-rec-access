@@ -1,5 +1,6 @@
 # Public Parks and Recreation Access in South Carolina
-Analysis of public parks and recreation access by county in South Carolina.
+This project explores the question: How does access to public parks and recreational spaces vary across counties in South Carolina based on proximity within a 2-mile buffer?
+Specifically, the analysis examines the distribution of public parks and evaluates how many parks are accessible within a 2-mile radius in each county, providing a county-level comparison of recreational access across the state.
 
 Public parks and recreation data were obtained from OpenStreetMap using the QuickOSM plugin in QGIS 4.0.0. Parks in South Carolina were extracted using the query: Key = leisure, Value = park, Area = South Carolina. Where park features were represented as polygons, they were converted to point features using the centroid tool to standardize spatial analysis.
 
