@@ -75,7 +75,8 @@ Overall, the map provides a clear visual comparison of recreational access acros
 
 ---
 
-## Final Project Link
+## Final Project Map
 
-Please view the final map online:  
-[Final Map](www.github...)
+![Final Map](images/parkaccessbycounty_small.png)
+
+
