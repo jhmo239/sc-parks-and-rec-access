@@ -77,6 +77,6 @@ Overall, the map provides a clear visual comparison of recreational access acros
 
 ## Final Project Map
 
-![Final Map](images/parkaccessbycounty_small.png)
+![Access to Public Parks in South Carolina by County](maps/ParkAccessbyCounty_small.png)
 
 
