@@ -11,4 +11,6 @@ Both datasets were projected using NAD83 / South Carolina (ftUS) or EPSG:3857 to
 
 To calculate the number of parks accessible within each county, the Join Attributes by Location (Summary) tool was used to spatially join park buffer features to the county boundary layer and summarize the total count of parks per county.
 
+The joined county layer is saved in the data folder within this repository.
+
 The resulting counts were visualized using a choropleth map with graduated symbology based on the number of park buffers within each county. Darker colors indicate a higher number of parks accessible within a 2-mile buffer, representing greater park accessibility.
