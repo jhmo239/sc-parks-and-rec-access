@@ -21,8 +21,8 @@ Public park data were obtained from OpenStreetMap using the QuickOSM plugin in Q
 County boundary data were obtained from the U.S. Census Bureau’s 2022 TIGER/Line shapefiles:  
 https://www.census.gov/cgi-bin/geo/shapefiles/index.php  
 
-- Initial data projection: NAD83 / South Carolina (ftUS) or EPSG:3857  
-- Final map projection: NAD83 / South Carolina (ftUS) or EPSG:3857  
+- Initial data projection: EPSG:2273 (NAD83 / South Carolina ftUS) 
+- Final map projection: EPSG:2273 (NAD83 / South Carolina ftUS)
 
 ---
 
