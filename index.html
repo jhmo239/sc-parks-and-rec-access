@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<!-- This is a comment in HTML -->
+
+<head>
+	<meta charset=utf-8 />
+	<!-- Below is the title of the document -->
+	<title>Public Parks and Recreation Access in South Carolina</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+	<style>
+		/* This is a comment in CSS. Below are the document styles. */
+		/* Hexadecimal values for UKy Colors: 
+            #c7c9c8 light gray 
+            #63666a dark gray
+            #15397f dark blue
+            #009bda light blue
+            #0033a0 official blue
+        */
+		body {
+			margin: 0;
+			padding: 0;
+			background: #ffffff;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
+
+		section {
+			width: 960px;
+			/* width: 80%; */
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			/* The em unit. 2.5x the current size */
+			font-size: 2.5em;
+			letter-spacing: .04em;
+			text-transform: uppercase;
+		}
+
+		h2 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			color: gray;
+			font-size: 1.1em;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 0px auto;
+		}
+
+		.max-width-img {
+			width: 100%;
+		}
+
+		/* Add custom style class here */
+	</style>
+</head>
+
+<body>
+	<section>
+		<!-- The division element contains an image element -->
+		<div id='map'>
+			<!-- The image element uses the the 'src' property to show an image on the page. -->
+			<img src="maps\ParkAccessbyCounty_small.png" class="max-width-img" alt="This map displays the selected area of interest from OpenStreetMap">
+		</div>
+		<!-- <a href="">Link to high resolution version</a> -->
+		 <p>
+  	<a href="maps/ParkAccessbyCounty_large.png" download>
+   	 Download full-resolution map (PNG)
+  	</a>
+	</p>
+
+		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
+
+		<h1>Public Parks and Recreation Access in South Carolina</h1>
+
+		<h2> Spatial Analysis of Park Accessibility in South Carolina Using 2-Mile Buffer Proximity</h2>
+
+		<!-- Add your information below -->
+		<h3>Authored by: Jordan Morrison </h3>
+		<p> This map was created using public park and county boundary data to analyze park accessibility across South Carolina. 
+			
+			Public park locations were obtained from OpenStreetMap using the QuickOSM plugin in QGIS 4.0.0, extracting features with the tags <em>leisure = park</em> within the state of South Carolina. 
+			
+			County boundary data were downloaded from the U.S. Census Bureau’s 2022 TIGER/Line shapefiles. 
+			
+			The data were projected using EPSG:2273 (NAD83 / South Carolina ftUS) to ensure spatial consistency across layers. 
+			
+			To represent park accessibility, a 2-mile buffer was generated around each park feature. Where parks were represented as polygons, centroid points were created to standardize spatial analysis. 
+			
+			The total number of park buffers intersecting each county was then calculated using the Join Attributes by Location (Summary) tool in QGIS. This allowed for a county-level comparison of potential access to public recreational spaces.
+			
+			The final map was symbolized as a choropleth, with graduated colors representing the number of park buffers within each county. 
+			
+			Darker shades indicate higher levels of park accessibility.
+			
+			Data sources include OpenStreetMap for park locations and the U.S. Census Bureau TIGER/Line shapefiles for county boundaries:
+<br> 
+<a href="https://www.census.gov/cgi-bin/geo/shapefiles/index.php" target="_blank">U.S. Census Bureau TIGER/Line Shapefiles</a>
+</p>
+
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>See my projects on GitHub: <a href="https://github.com/jhmo239/">jhmo239</a></li>
+		</ul>
+		<hr>
+		<p>Created by Jordan Morrison for MAP 671 at Univeristy of Kentucky</p>
+		<a href="https://uky-gis.github.io"><img width="20%"
+				src="https://uky-gis.github.io/graphics/logo-color-400px.png"
+				alt="University of Kentucky Geography"></a>
+		<a href="https://newmapsplus.as.uky.edu"><img width="15%"
+				src="https://newmapsplus.as.uky.edu/sites/default/files/NMP%20Logo.png" alt="New Maps Plus"></a>
+	</section>
+</body>
+
+</html>
