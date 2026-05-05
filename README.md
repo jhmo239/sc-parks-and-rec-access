@@ -81,6 +81,6 @@ Overall, the map provides a clear visual comparison of recreational access acros
 
 ## View Project 
 
-[Click here to view the interactive map](https://jhmo239.github.io/your-repo-name/)
+[Click here to view the interactive map](https://jhmo239.github.io/sc-parks-and-rec-access/))
 
 
